@@ -1,5 +1,10 @@
 # Quiz Maker
 
+Deployed at
+
+- https://quiz-maker-1599f.web.app/
+- https://quiz-maker-1599f.firebaseapp.com/
+
 ## Getting Started
 
 ### Prerequisites
