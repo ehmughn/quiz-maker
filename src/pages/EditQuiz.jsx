@@ -329,7 +329,7 @@ export default function EditQuiz() {
 
         {error && (
           <div className="bg-red-50 text-red-600 px-4 py-3 rounded-lg flex items-center gap-2 mb-6">
-            <AlertCircle className="w-5 h-5 flex-shrink-0" />
+            <AlertCircle className="w-5 h-5 shrink-0" />
             <span>{error}</span>
           </div>
         )}
@@ -525,7 +525,7 @@ export default function EditQuiz() {
                                 onClick={() =>
                                   toggleCorrectAnswer(qIndex, cIndex)
                                 }
-                                className={`flex-shrink-0 w-6 h-6 rounded-full border-2 flex items-center justify-center transition-colors ${
+                                className={`shrink-0 w-6 h-6 rounded-full border-2 flex items-center justify-center transition-colors ${
                                   isCorrect
                                     ? "border-green-500 bg-green-500"
                                     : "border-gray-300 hover:border-gray-400"

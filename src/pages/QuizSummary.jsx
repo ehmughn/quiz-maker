@@ -107,10 +107,10 @@ export default function QuizSummary() {
         <div
           className={`rounded-2xl p-8 text-center mb-8 ${
             isExcellent
-              ? "bg-gradient-to-br from-green-500 to-emerald-600"
+              ? "bg-linear-to-br from-green-500 to-emerald-600"
               : isPassing
-                ? "bg-gradient-to-br from-yellow-500 to-orange-600"
-                : "bg-gradient-to-br from-red-500 to-pink-600"
+                ? "bg-linear-to-br from-yellow-500 to-orange-600"
+                : "bg-linear-to-br from-red-500 to-pink-600"
           }`}
         >
           <div className="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -218,7 +218,7 @@ export default function QuizSummary() {
                 <div key={index} className="p-6">
                   <div className="flex items-start gap-4">
                     <div
-                      className={`flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center ${
+                      className={`shrink-0 w-8 h-8 rounded-full flex items-center justify-center ${
                         isCorrect ? "bg-green-100" : "bg-red-100"
                       }`}
                     >

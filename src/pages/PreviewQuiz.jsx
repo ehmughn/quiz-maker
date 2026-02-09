@@ -154,10 +154,10 @@ export default function PreviewQuiz() {
           <div
             className={`rounded-2xl p-8 text-center mb-8 ${
               score.percentage >= 80
-                ? "bg-gradient-to-br from-green-500 to-emerald-600"
+                ? "bg-linear-to-br from-green-500 to-emerald-600"
                 : score.percentage >= 50
-                  ? "bg-gradient-to-br from-yellow-500 to-orange-600"
-                  : "bg-gradient-to-br from-red-500 to-pink-600"
+                  ? "bg-linear-to-br from-yellow-500 to-orange-600"
+                  : "bg-linear-to-br from-red-500 to-pink-600"
             }`}
           >
             <h1 className="text-2xl font-bold text-white mb-2">
@@ -234,7 +234,7 @@ export default function PreviewQuiz() {
                   <div key={index} className="p-6">
                     <div className="flex items-start gap-4">
                       <div
-                        className={`flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center ${
+                        className={`shrink-0 w-8 h-8 rounded-full flex items-center justify-center ${
                           isCorrect ? "bg-green-100" : "bg-red-100"
                         }`}
                       >
@@ -429,7 +429,7 @@ export default function PreviewQuiz() {
                   >
                     <div className="flex items-center gap-4">
                       <div
-                        className={`w-6 h-6 rounded-full border-2 flex items-center justify-center flex-shrink-0 ${
+                        className={`w-6 h-6 rounded-full border-2 flex items-center justify-center shrink-0 ${
                           isSelected
                             ? "border-purple-500 bg-purple-500"
                             : "border-gray-300"

@@ -79,7 +79,7 @@ function ConfirmModal({
 
         <div className="flex items-start gap-4">
           {danger && (
-            <div className="flex-shrink-0 w-12 h-12 bg-red-100 rounded-full flex items-center justify-center">
+            <div className="shrink-0 w-12 h-12 bg-red-100 rounded-full flex items-center justify-center">
               <AlertTriangle className="w-6 h-6 text-red-600" />
             </div>
           )}

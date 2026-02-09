@@ -148,7 +148,7 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
           <Link
             to="/create-quiz"
-            className="bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-xl p-6 flex items-center gap-4 hover:opacity-90 hover:scale-[1.02] hover:shadow-lg hover:shadow-purple-200/50 transition-all active:scale-[0.98] group"
+            className="bg-linear-to-r from-purple-600 to-pink-600 text-white rounded-xl p-6 flex items-center gap-4 hover:opacity-90 hover:scale-[1.02] hover:shadow-lg hover:shadow-purple-200/50 transition-all active:scale-[0.98] group"
           >
             <div className="bg-white/20 p-3 rounded-lg group-hover:bg-white/30 transition-colors">
               <Plus className="w-6 h-6" />
