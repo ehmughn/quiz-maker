@@ -1,41 +1,35 @@
-# React + Tailwind CSS Template
+# Quiz Maker
 
-A minimal React + Tailwind CSS setup with Vite for fast development.
+## Getting Started
 
-## Quick Start
+### Prerequisites
 
-### 1. Clone the Repository
+- Node.js 18+
+- Firebase project with Firestore and Authentication enabled
 
-```bash
-git clone https://github.com/ehmughn/react-tailwindcss-setup my-project-name
-cd my-project-name
-```
+### Installation
 
-### 2. Run the Setup Script
+1. Clone the repository:
 
 ```bash
-node setup.js
+git clone https://github.com/ehmughn/quiz-maker.git
+cd quiz-maker
 ```
 
-The script will:
+2. Install dependencies:
 
-- Remove the `.git` folder (so you can initialize your own repository)
-- Install all npm dependencies
+```bash
+npm install
+```
 
-### 3. Start Development
+3. Configure Firebase:
+   - Create a Firebase project at [Firebase Console](https://console.firebase.google.com)
+   - Enable Email/Password authentication
+   - Create a Firestore database
+   - Copy your config to `src/firebase.js`
+
+4. Start the development server:
 
 ```bash
 npm run dev
-```
-
-Your app will be running at `http://localhost:5173`
-
-## After Setup
-
-Don't forget to initialize a new git repository for your project:
-
-```bash
-git init
-git add .
-git commit -m "Initial commit"
 ```
